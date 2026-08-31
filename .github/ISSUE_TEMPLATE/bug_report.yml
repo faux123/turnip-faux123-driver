@@ -1,0 +1,76 @@
+name: Bug report
+description: Something renders wrong, crashes, or performs worse than the stock driver
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill in the device and the log. Without those a report cannot be
+        acted on, and it will be closed rather than left open indefinitely.
+  - type: input
+    id: device
+    attributes:
+      label: Device and GPU
+      description: Model, and the Adreno number if you know it.
+      placeholder: AYN Odin 3, Adreno 830
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version
+      placeholder: Android 15
+    validations:
+      required: true
+  - type: input
+    id: driver
+    attributes:
+      label: Driver version
+      description: The release you downloaded. "Latest" is not a version.
+      placeholder: v1.0.0
+    validations:
+      required: true
+  - type: input
+    id: host
+    attributes:
+      label: App loading the driver
+      description: GameNative, Winlator, a fork, or your own build. Include its version.
+      placeholder: GameNative 1.2.0
+    validations:
+      required: true
+  - type: dropdown
+    id: stock
+    attributes:
+      label: Does the same thing happen on the stock Qualcomm driver?
+      description: >-
+        Switch the driver back and try again. This single answer decides whether
+        the bug is in Turnip at all, and it saves everyone a lot of time.
+      options:
+        - "No, only with this driver"
+        - "Yes, it happens on the stock driver too"
+        - "I have not tried"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you got instead.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: |
+        `adb logcat` covering the moment it went wrong. If the app died, the
+        lines beginning `F DEBUG` are the important ones. Paste as text, not a
+        screenshot.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshot or video
+      description: Helpful for rendering bugs. Optional.

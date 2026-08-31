@@ -1,0 +1,33 @@
+name: Device report
+description: Tell me it works (or does not) on a device I do not own
+labels: ["device-report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        I only own one Adreno 830 device, so every number in the README comes
+        from that one phone. Reports from other Adreno 8xx hardware are the most
+        useful thing you can contribute.
+  - type: input
+    id: device
+    attributes:
+      label: Device and GPU
+      placeholder: <model>, Adreno <number>
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options:
+        - "Works, renders correctly"
+        - "Loads but renders wrong"
+        - "Crashes"
+        - "Will not load at all"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: What you ran, and anything you measured against the stock driver.

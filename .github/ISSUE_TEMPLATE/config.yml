@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Mesa and Turnip itself
+    url: https://gitlab.freedesktop.org/mesa/mesa/-/issues
+    about: >-
+      If the problem also happens on other Turnip builds, it belongs upstream.
+      This repository only carries three patches on top of mesa main.
+  - name: AdrenoTools driver loading
+    url: https://github.com/bylaws/libadrenotools/issues
+    about: For problems importing or loading a driver at all, in any app.
