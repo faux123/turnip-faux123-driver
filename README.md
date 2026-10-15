@@ -15,6 +15,11 @@ one, so nothing here is tested there and I can make no promises. See
 Grab the latest `.adpkg.zip` from [Releases](../../releases) and import it in
 GameNative, Winlator, or any app with an AdrenoTools driver picker.
 
+## Test it on your device
+
+- **FauxVkTest** (free, Google Play): compare this driver against your stock driver on your own device. https://play.google.com/store/apps/details?id=com.faux.vktest&referrer=utm_source%3Dgithub%26utm_campaign%3Dturnip-faux123-driver
+- **FauxVkDB**: see how other devices score with stock and custom drivers. https://fauxvkdb.canonspike.com/
+
 ---
 
 ## Where the driver comes from
@@ -161,3 +166,9 @@ and so are the patches in this repository. See [LICENSE](LICENSE).
 
 This project is not affiliated with or endorsed by Qualcomm, Google, the Khronos
 Group, or the Mesa project.
+
+---
+
+## Sponsor
+
+These drivers are Mesa's Turnip with my patches on top; the Mesa developers did the hard part. If my builds help you, you can sponsor my work on GitHub: https://github.com/sponsors/faux123
