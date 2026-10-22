@@ -23,6 +23,7 @@ GameNative, Winlator, or any app with an AdrenoTools driver picker.
 - **FauxVkDB**: see how other devices score with stock and custom drivers. https://fauxvkdb.canonspike.com/
 - **More apps from the same developer** (FauxClockNG, FauxCooling, RomRoster, Net SD card, and more): https://fauxapps.canonspike.com/
 - **FauxApps Discord**: driver release news, questions, and results from other players. https://discord.gg/ceyPguKNbu
+- **r/faux123** (Reddit): release posts, game reports, test results, and help (use the **Turnip Help** flair). https://www.reddit.com/r/faux123/
 
 ---
 
