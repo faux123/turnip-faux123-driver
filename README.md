@@ -19,7 +19,7 @@ GameNative, Winlator, or any app with an AdrenoTools driver picker.
 
 ## Test it on your device
 
-- **FauxVkTest** (free, Google Play): compare this driver against your stock driver on your own device. https://play.google.com/store/apps/details?id=com.faux.vktest&referrer=utm_source%3Dgithub%26utm_campaign%3Dturnip-faux123-driver
+- **FauxVkTest** (free, Google Play): compare this driver against your stock driver on your own device. https://play.google.com/store/apps/details?id=com.faux.vktest&referrer=utm_source%3Dgithub%26utm_campaign%3Dturnip-faux123-driver What it checks, in a 6-minute video: https://www.youtube.com/watch?v=CpEBlNcZmwo
 - **FauxVkDB**: see how other devices score with stock and custom drivers. https://fauxvkdb.canonspike.com/
 - **More apps from the same developer** (FauxClockNG, FauxCooling, RomRoster, Net SD card, and more): https://fauxapps.canonspike.com/
 - **FauxApps Discord**: driver release news, questions, and results from other players. https://discord.gg/ceyPguKNbu
