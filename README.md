@@ -21,6 +21,7 @@ GameNative, Winlator, or any app with an AdrenoTools driver picker.
 
 - **FauxVkTest** (free, Google Play): compare this driver against your stock driver on your own device. https://play.google.com/store/apps/details?id=com.faux.vktest&referrer=utm_source%3Dgithub%26utm_campaign%3Dturnip-faux123-driver What it checks, in a 6-minute video: https://www.youtube.com/watch?v=CpEBlNcZmwo
 - **FauxVkDB**: see how other devices score with stock and custom drivers. https://fauxvkdb.canonspike.com/
+- **All faux123 drivers** (Turnip for Adreno, PanVK for Mali), and every graphics chip each one has run on, in ten languages: https://canonspike.com/drivers/
 - **More apps from the same developer** (FauxClockNG, FauxCooling, RomRoster, Net SD card, and more): https://fauxapps.canonspike.com/
 - **FauxApps Discord**: driver release news, questions, and results from other players. https://discord.gg/ceyPguKNbu
 - **r/faux123** (Reddit): release posts, game reports, test results, and help (use the **Turnip Help** flair). https://www.reddit.com/r/faux123/
