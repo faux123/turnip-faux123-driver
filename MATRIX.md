@@ -1,18 +1,22 @@
 # Adreno support matrix
 
-This page lists which Adreno GPUs turnip_faux123 supports, which ones I have tested, and what each test covered. It applies to [v1.1.20](https://github.com/faux123/turnip-faux123-driver/releases/tag/v1.1.20), the latest release.
+This page lists which Adreno GPUs turnip_faux123 supports, which ones I have tested, and what each test covered. It applies to [v1.2.0](https://github.com/faux123/turnip-faux123-driver/releases/tag/v1.2.0), the latest release.
 
 ## Tested devices
 
 | Device | GPU | Generation | SoC | GMEM | Tested release | What was tested |
 |---|---|---|---|---|---|---|
-| AYN Odin 3 | Adreno 830 | A8xx | CQ8725S | 12 MiB | v1.1.20 | All 115 Khronos Vulkan-Samples scenes, against v1.1.9: no scene lost, no scene slower |
+| AYN Odin 3 | Adreno 830 | A8xx | CQ8725S | 12 MiB | v1.2.0 | All 115 Vulkan-Samples scenes, against v1.1.20: no scene lost, no scene slower; `compute_nbody` 11% faster |
+| | | | | | v1.1.20 | All 115 Khronos Vulkan-Samples scenes, against v1.1.9: no scene lost, no scene slower |
 | | | | | | v1.1.9 | FauxVkTest driver check, 2026-10-25: one problem, the `compat.nested_map` crash, which v1.1.20 fixes |
-| Samsung Galaxy S23 | Adreno 740 | A7xx | Snapdragon 8 Gen 2 (SM8550) | 3 MiB | v1.1.20 | All 115 Vulkan-Samples scenes, against v1.1.9: no scene lost, no scene slower |
-| Samsung Galaxy S22 | Adreno 730 | A7xx | Snapdragon 8 Gen 1 (SM8450) | 2 MiB | v1.1.20 | All 115 Vulkan-Samples scenes, against v1.1.9: no scene lost, no scene slower; `fragment_density_map` fixed |
-| Samsung Galaxy S21+ | Adreno 660 | A6xx | Snapdragon 888 (SM8350) | 1.5 MiB | v1.1.20 | All 115 Vulkan-Samples scenes, against v1.1.9: no scene lost, no scene slower; `afbc` fixed |
+| Samsung Galaxy S23 | Adreno 740 | A7xx | Snapdragon 8 Gen 2 (SM8550) | 3 MiB | v1.2.0 | All 115 Vulkan-Samples scenes, against v1.1.20: no scene lost, no scene slower; `hdr` 22% faster |
+| | | | | | v1.1.20 | All 115 Vulkan-Samples scenes, against v1.1.9: no scene lost, no scene slower |
+| Samsung Galaxy S22 | Adreno 730 | A7xx | Snapdragon 8 Gen 1 (SM8450) | 2 MiB | v1.2.0 | All 115 Vulkan-Samples scenes, against v1.1.20: no scene lost, no scene slower; `hdr` 21% faster |
+| | | | | | v1.1.20 | All 115 Vulkan-Samples scenes, against v1.1.9: no scene lost, no scene slower; `fragment_density_map` fixed |
+| Samsung Galaxy S21+ | Adreno 660 | A6xx | Snapdragon 888 (SM8350) | 1.5 MiB | v1.2.0 | All 115 Vulkan-Samples scenes, against v1.1.20: no scene lost, no scene slower; `compute_nbody` 17% faster |
+| | | | | | v1.1.20 | All 115 Vulkan-Samples scenes, against v1.1.9: no scene lost, no scene slower; `afbc` fixed |
 
-The Vulkan-Samples runs are capability sweeps: each scene runs on both drivers in turn, and any scene that looks slower is run again five times to confirm. The FauxVkTest driver check on v1.1.20 has not been run on these devices yet.
+The Vulkan-Samples runs are capability sweeps: each scene runs on both drivers in turn, and any scene that looks slower is run again five times to confirm. The FauxVkTest driver check on v1.1.20 and v1.2.0 has not been run on these devices yet.
 
 ## Supported GPUs
 
