@@ -14,6 +14,10 @@ Adreno 830.** It should load on 600 and 700 series parts too, but I do not own
 one, so nothing here is tested there and I can make no promises. See
 [Adreno 600 and 700 series](#adreno-600-and-700-series-not-tested-no-guarantees).
 
+**Since v1.1.20,** the driver has also been run on a Samsung Galaxy S21+ (Adreno 660), S22 (Adreno 730)
+and S23 (Adreno 740). The [Adreno support matrix](MATRIX.md) lists every tested device, what each test
+covered, and every Adreno GPU the driver recognizes.
+
 Grab the latest `.adpkg.zip` from [Releases](../../releases) and import it in
 GameNative, Winlator, or any app with an AdrenoTools driver picker.
 
