@@ -1,6 +1,12 @@
 # turnip-faux123-driver
 
-> **Driver release news, bug reports, and the FauxWall beta sign-up are on the [FauxApps Discord](https://discord.gg/ceyPguKNbu).**
+> **Also from the same developer, free:**
+> - Is this driver faster than your stock one on *your* device? [FauxVkTest](https://play.google.com/store/apps/details?id=com.faux.vktest&referrer=utm_source%3Dgithub%26utm_medium%3Dbanner%26utm_campaign%3Dturnip-faux123-driver) checks it in about 3 minutes.
+> - Want a live wallpaper that shows your battery and temperature? [Try FauxWall](https://fauxwall.canonspike.com/beta/) (free test on Google Play, three steps).
+> - Want control over your handheld's fan? [Download FauxCooling](https://github.com/faux123/fauxcooling-public/releases/latest/download/FauxCooling.apk).
+> - Want to know which handheld has which game? [RomRoster](https://play.google.com/store/apps/details?id=com.faux123.romroster&referrer=utm_source%3Dgithub%26utm_medium%3Dbanner%26utm_campaign%3Dturnip-faux123-driver). Rooted? [FauxClockNG](https://github.com/faux123/fauxclock-public/releases/latest/download/FauxClockNG.apk) sets CPU and GPU limits per game.
+>
+> Questions and release news: [r/faux123](https://www.reddit.com/r/faux123/) or the [FauxApps Discord](https://discord.gg/ceyPguKNbu).
 
 Mesa **Turnip**, the open source Vulkan driver for Qualcomm Adreno GPUs, built for
 Android and packaged for [AdrenoTools](https://github.com/bylaws/libadrenotools)
