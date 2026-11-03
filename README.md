@@ -121,6 +121,10 @@ me, and it is how those parts get supported properly instead of by assumption.
 It would be nice to have a 700 series device so I could test and fix that
 generation rather than guess at it. I do not have one at the moment.
 
+## Video guides
+
+- What a custom GPU driver does, with Turnip and PanVK numbers (7 min): https://youtu.be/6cUdptiC218
+
 ## Installing
 
 1. Download `turnip_faux123_<version>.adpkg.zip` from [Releases](../../releases).
