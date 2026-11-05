@@ -28,6 +28,10 @@ covered, and every Adreno GPU the driver recognizes.
 Grab the latest `.adpkg.zip` from [Releases](../../releases) and import it in
 GameNative, Winlator, or any app with an AdrenoTools driver picker.
 
+**Using DroidDeck** (Linux Steam on Android)? Get the DroidDeck bundle from
+[turnip-faux123-droiddeck](https://github.com/faux123/turnip-faux123-droiddeck) instead:
+it holds both drivers DroidDeck needs.
+
 ## Test it on your device
 
 - **FauxVkTest** (free, Google Play): compare this driver against your stock driver on your own device. https://play.google.com/store/apps/details?id=com.faux.vktest&referrer=utm_source%3Dgithub%26utm_campaign%3Dturnip-faux123-driver What it checks, in a 6-minute video: https://www.youtube.com/watch?v=CpEBlNcZmwo
